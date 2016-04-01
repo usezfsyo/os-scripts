@@ -50,14 +50,14 @@ fi
 ##### Location information
 keyboardApple=false         # Using a Apple/Macintosh keyboard (non VM)?                [ --osx ]
 keyboardLayout=""           # Set keyboard layout                                       [ --keyboard gb]
-timezone=""                 # Set timezone location                                     [ --timezone Europe/London ]
+timezone="America/New_York"                 # Set timezone location                                     [ --timezone Europe/London ]
 
 ##### Optional steps
-burpFree=false              # Disable configuring Burp Suite (for Burp Pro users...)    [ --burp ]
+burpFree=true              # Disable configuring Burp Suite (for Burp Pro users...)    [ --burp ]
 hardenDNS=false             # Set static & lock DNS name server                         [ --dns ]
 freezeDEB=false             # Disable updating certain packages (e.g. Metasploit)       [ --hold ]
 openVAS=false               # Install & configure OpenVAS (not everyone wants it...)    [ --openvas ]
-rolling=false               # Enable kali-rolling repos?                                [ --rolling ]
+rolling=true               # Enable kali-rolling repos?                                [ --rolling ]
 
 ##### (Optional) Enable debug mode?
 #set -x
